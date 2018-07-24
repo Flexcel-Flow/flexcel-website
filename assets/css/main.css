@@ -2915,8 +2915,21 @@
 
 			#navPanel .close:hover {
 				color: inherit;
+	
 			}
 
+/* Three 
+#three{
+		padding: 8em 0 9em 0;
+		background-image: url(../../images/flow.jpg);
+		background-size: auto;
+		background-position: top;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+}
+*/
 /* Banner */
 
 	#banner {
