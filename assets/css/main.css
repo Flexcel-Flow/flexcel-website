@@ -2530,8 +2530,8 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #6cc091;
-		color: #6cc091 !important;
+		box-shadow: inset 0 0 0 3px #1C77B9;
+		color: #1C77B9 !important;
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
@@ -2921,9 +2921,9 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/banner.jpg);
-		background-size: cover;
-		background-position: bottom;
+		background-image: url(../../images/background.jpg);
+		background-size: auto;
+		background-position: top;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
@@ -2932,7 +2932,7 @@
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.85);
+			background:  rgba(8, 10, 12, 0.85);
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2963,7 +2963,7 @@
 		}
 
 		#banner .icon {
-			color: #6cc091;
+			color: #1C77B9;
 			font-size: 2em;
 		}
 
