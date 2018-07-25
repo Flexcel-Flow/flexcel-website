@@ -2553,7 +2553,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(108, 192, 145, 0.15);
+			background-color: rgba(85, 157, 199, 0.15);
 		}
 
 		input[type="submit"]:active,
@@ -2701,7 +2701,7 @@
 	}
 
 		.subpage #header {
-			background: #6cc091;
+			background: rgba(8, 10, 12, 0.85);
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2918,18 +2918,31 @@
 	
 			}
 
-/* Three 
-#three{
-		padding: 8em 0 9em 0;
-		background-image: url(../../images/flow.jpg);
-		background-size: auto;
-		background-position: top;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		text-align: center;
-		position: relative;
-}
-*/
+.video-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%; 
+	overflow: hidden;
+  }
+  .video-container video {
+	/* Make video to at least 100% wide and tall */
+	min-width: 100%; 
+	min-height: 100%; 
+  
+	/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+	width: auto;
+	height: auto;
+  
+	/* Center the video */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+  }
+
+
 /* Banner */
 
 	#banner {
@@ -3127,14 +3140,13 @@
 
 	#footer {
 		padding: 6em 0;
-		background: #6cc091;
+		background: rgba(8, 10, 12, 0.85);
 		color: #fff;
 		text-align: center;
 	}
 
 		#footer h3 {
 			color: #FFF;
-			margin-bottom: 2em !important;
 		}
 
 		#footer label {
