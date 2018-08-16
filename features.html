@@ -7,7 +7,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="shortcut icon"  href="images/icon.png" />
+	<link rel="shortcut icon" href="images/icon.png" />
 </head>
 
 <body class="subpage">
@@ -67,17 +67,36 @@
 				<div class="6u 12u$(small)">
 					<h3>Tab Navigation</h3>
 					<p>
-						<strong>Ctrl + O:</strong> previous tab
+						<strong>Ctrl + O:</strong> Previous tab
 						<br>
-						<strong>Ctrl + P:</strong> next tab
+						<strong>Ctrl + P:</strong> Next tab
 						<br>
 						<strong>Note:</strong> In order for to switch tabs through keyboard, the cell must be in edit mode.
 					</p>
 				</div>
+
+
+			</div>
+			<hr class="major" />
+
+			<h2 id="content">Plan Flow and Policy Flow Customization</h2>
+			<p>
+				<strong>Flexcel</strong> allows you to customize your plan flow and policy flow by allowing the user to add an Advantage or an Off.</p>
+			<div class="row">
 				<div class="6u$ 12u$(small)">
-					<h3>Tab Deletion [LD Plan Flow and Policy Flow]</h3>
+					<h3>Tab Addition</h3>
 					<p>
-						<strong>Ctrl + I: </strong> delete tab. Checkout the
+						<strong>Ctrl + U: </strong> Add tab. Checkout the
+						<a href="preview.html">preview</a> to see how it works.
+						<br>
+						<br>
+						<strong>Note:</strong> You can only add advantages and offs. If you press ctrl + u when you are on Advantage 4, an Advantage
+						5 tab will be added right next to it. The same applies to the Off’s. </p>
+				</div>
+				<div class="6u$ 12u$(small)">
+					<h3>Tab Deletion</h3>
+					<p>
+						<strong>Ctrl + I: </strong> Delete tab. Checkout the
 						<a href="preview.html">preview</a> to see how it works.
 						<br>
 						<br>
@@ -85,6 +104,21 @@
 						the rest of the Advantages. The same applies to the Off’s.</p>
 				</div>
 
+
+			</div>
+			<hr class="major" />
+
+			<h2 id="content">PF Flow Customization</h2>
+			<p>
+				<strong>Flexcel</strong> allows you to change speakers based on speaker and side.</p>
+			<div class="row">
+				<div class="6u$ 12u$(small)">
+					<h3>Switching Speakers</h3>
+					<p>
+						<strong>Ctrl + L: </strong> Switch Speakers. The default setting is Pro as first speaker.
+						When you use Ctrl + L, the formatting of the flow changes for Con as first speakers. Checkout the
+						<a href="preview.html">preview</a> to see how it works.
+				</div>
 			</div>
 
 			<hr class="major" />
@@ -92,102 +126,134 @@
 			<p>
 				<strong>Flexcel</strong> has a autocomplete feature which allows for efficient flowing. Checkout the
 				<a href="preview.html">preview</a> to see how it works.
-			<div class="row">
-				<div class="6u 12u$(small)">
-					<h3>Usage</h3>
-					<p>
-						<strong>Flexcel</strong> has default autocomplete 'keys' and 'values'. Once you type the 'key' and press enter, the 'value'
-						will be automatically completed for you.
-						<br> For example, if I type 'v m' into a cell and press enter, the cell would then display 'value: morality'
-					</p>
+				<div class="row">
+					<div class="6u 12u$(small)">
+						<h3>Usage</h3>
+						<p>
+							<strong>Flexcel</strong> has default autocomplete 'keys' and 'values'. Once you type the 'key' and press enter, the 'value'
+							will be automatically completed for you.
+							<br> For example, if I type 'vm' into a cell and press enter, the cell would then display 'value: morality'.
+							<br>
+							<br>
+							<strong>New Feature:</strong> if you type 'c1 China', 'Contention One: China' would be displayed.
+						</p>
+					</div>
+
+					<div class="6u$ 12u$(small)">
+						<h4>Default Autocomplete Keys and Values</h4>
+						<ul class="box" style="height: 200px;overflow: scroll;overflow-y: scroll;overflow-x: scroll;">
+							<li>c1: Contention 1</li>
+							<li>c2: Contention 2</li>
+							<li>c3: Contention 3</li>
+							<li>c4: Contention 4</li>
+							<li>c5: Contention 5</li>
+							<li>c6: Contention 6</li>
+							<li>c7: Contention 7</li>
+							<li>c8: Contention 8</li>
+							<li>c9: Contention 9</li>
+							<li>c10: Contention 10</li>
+							<li>o1: Off 1</li>
+							<li>o2: Off 2</li>
+							<li>o3: Off 3</li>
+							<li>o4: Off 4</li>
+							<li>o5: Off 5</li>
+							<li>o6: Off 6</li>
+							<li>o7: Off 7</li>
+							<li>o8: Off 8</li>
+							<li>o9: Off 9</li>
+							<li>o10: Off 10</li>
+							<li>obs: Observations</li>
+							<li>Adv1: Advantage 1</li>
+							<li>Adv2: Advantage 2</li>
+							<li>Adv3: Advantage 3</li>
+							<li>Adv4: Advantage 4</li>
+							<li>Adv5: Advantage 5</li>
+							<li>Adv6: Advantage 6</li>
+							<li>fw: Framework</li>
+							<li>def: Definitions</li>
+							<li>im: Impact</li>
+							<li>vm: value: morality</li>
+							<li>stsv: standard is mitigating structural violence</li>
+							<li>stmsw: standard is maximizing societal welfare</li>
+							<li>stmew: standard is maximizing expected wellbeing</li>
+							<li>stut: maximizing utility</li>
+							<li>stcomm: standard is consistency with communal obligations</li>
+							<li>strl: standard is respecting liberty</li>
+							<li>goo: Goodin 95</li>
+							<li>k83: Korsgaard 83</li>
+							<li>k93: Korsgaard 93</li>
+							<li>b02: Bostrom 02</li>
+							<li>b11: Bostrom 11</li>
+							<li>win: Winter and Leighton 99</li>
+							<li>int: Interp -</li>
+							<li>vio: Violation -</li>
+							<li>sta: Standards</li>
+							<li>vot: Voters</li>
+							<li>ecd: Econ Da</li>
+							<li>cpk: Cap K</li>
+							<li>ak: Afropess K</li>
+						</ul>
+					</div>
+					<div class="6u$ 12u$(small)">
+						<h3>Customization</h3>
+						<p>You can add your own custom 'key' and 'value'/autocomplete shortcuts.
+							<br>
+							<br>
+							<strong>Note: </strong> Your key will only work if it's a single word. In
+							<strong>Flexcel 2.0</strong>, 'v m' will not work. It is recommened that you change it to 'vm':'value morality'.
+							<br>
+							<strong>Ctrl + T:</strong> A dialog pops up in which you enter the key and value in the format: 'value,key'.</p>
+						<img src="images/autocomplete-customization.png" alt="">
+					</div>
+				</div>
+				<hr class="major" />
+
+				<h2 id="content">Flow Customization</h2>
+				<p>
+					<strong>Flexcel</strong> has options to chage font colors and column differentiation</p>
+				<div class="row">
+					<div class="6u 12u$(small)">
+						<h3>Font Color and Column Color</h3>
+						<p>
+							<strong>Ctrl + F: </strong> An dialog pops up and allows you to choose the font color for AFF and NEG color. You can also
+							choose to customize the column color for AFF and NEG to differntiate them.
+						</p>
+						<img src="images/font-customization.png" alt="">
+					</div>
+					<div class="6u$ 12u$(small)">
+						<h3>Bold Font</h3>
+						<p>
+							<strong>Ctrl + B: </strong> Bold the current cell. Checkout the
+							<a href="preview.html">preview</a> to see how it works.
+							<br>
+							<br>
+							<strong>Note:</strong> After you bold the cell, it is recommened to navigate to the next cell using arrow keys.</p>
+					</div>
+				</div>
+				<!-- Content -->
+				<h2 id="content">Saving</h2>
+				<p>
+					<strong>Flexcel</strong> allows you to save pre-flows and flows.</p>
+				<div class="row">
+					<div class="6u 12u$(small)">
+						<h3>Saving the Flow</h3>
+						<p>
+							<strong>Ctrl + S:</strong> An input dialog pops up in which you insert the name of the flow. Then, an open dialog pops up
+							in which you choose the folder you want to save the flow in.
+						</p>
+					</div>
+					<div class="6u$ 12u$(small)">
+						<h3>Loading the Flow</h3>
+						<p>
+							<strong>Ctrl + D:</strong> An open dialog pops up and allows you to choose the file (.json) that you want to load.
+							<br>
+							<br>
+							<strong>Note:</strong> If you load a flow of the wrong type, an error prompt will pop up.</p>
+					</div>
+
 				</div>
 
-				<div class="6u$ 12u$(small)">
-					<h4>Default Autocomplete Keys and Values</h4>
-					<ul class="box" style="height: 200px;overflow: scroll;overflow-y: scroll;overflow-x: scroll;">
-						<li>c1: Contention 1</li>
-						<li>c2: Contention 2</li>
-						<li>c3: Contention 3</li>
-						<li>c4: Contention 4</li>
-						<li>c5: Contention 5</li>
-						<li>c6: Contention 6</li>
-						<li>c7: Contention 7</li>
-						<li>c8: Contention 8</li>
-						<li>c9: Contention 9</li>
-						<li>c10: Contention 10</li>
-						<li>o1: Off 1</li>
-						<li>o2: Off 2</li>
-						<li>o3: Off 3</li>
-						<li>o4: Off 4</li>
-						<li>o5: Off 5</li>
-						<li>o6: Off 6</li>
-						<li>o7: Off 7</li>
-						<li>o8: Off 8</li>
-						<li>o9: Off 9</li>
-						<li>o10: Off 10</li>
-						<li>obs: Observations</li>
-						<li>Adv1: Advantage 1</li>
-						<li>Adv2: Advantage 2</li>
-						<li>Adv3: Advantage 3</li>
-						<li>Adv4: Advantage 4</li>
-						<li>Adv5: Advantage 5</li>
-						<li>Adv6: Advantage 6</li>
-						<li>fw: Framework</li>
-						<li>def: Definitions</li>
-						<li>im: Impact</li>
-						<li>v m: value: morality</li>
-						<li>st sv: standard is mitigating structural violence</li>
-						<li>st msw: standard is maximizing societal welfare</li>
-						<li>st mew: standard is maximizing expected wellbeing</li>
-						<li>st ut: maximizing utility</li>
-						<li>st comm: standard is consistency with communal obligations</li>
-						<li>st rl: standard is respecting liberty</li>
-						<li>goo: Goodin 95</li>
-						<li>k83: Korsgaard 83</li>
-						<li>k93: Korsgaard 93</li>
-						<li>b02: Bostrom 02</li>
-						<li>b11: Bostrom 11</li>
-						<li>win: Winter and Leighton 99</li>
-						<li>int: Interp -</li>
-						<li>vio: Violation -</li>
-						<li>sta: Standards</li>
-						<li>vot: Voters</li>
-						<li>ecd: Econ Da</li>
-						<li>cpk: Cap K</li>
-						<li>ak: Afropess K</li>
-					</ul>
-				</div>
-				<div class="6u$ 12u$(small)">
-					<h3>Customization</h3>
-					<p>You can add your own custom 'key' and 'value'/autocomplete shortcuts.
-						<br>
-						<strong>Ctrl + T:</strong> A dialog pops up in which you enter the key and value in the format: 'value,key'.</p>
-					<img src="images/autocomplete-customization.png" alt="">
-				</div>
-			</div>
-			<hr class="major" />
 
-			<!-- Content -->
-			<h2 id="content">Saving</h2>
-			<p>
-				<strong>Flexcel</strong> allows you to save pre-flows and flows.</p>
-			<div class="row">
-				<div class="6u 12u$(small)">
-					<h3>Saving the Flow</h3>
-					<p>
-						<strong>Ctrl + S:</strong> An input dialog pops up in which you insert the name of the flow. Then, an open dialog pops up in which you choose the folder you want to save the flow in.
-					</p>
-				</div>
-				<div class="6u$ 12u$(small)">
-					<h3>Loading the Flow</h3>
-					<p>
-						<strong>Ctrl + D:</strong> An open dialog pops up and allows you to choose the file (.json) that you want to load.
-						<br>
-						<br>
-						<strong>Note:</strong> If you load a flow of the wrong type, an error prompt will pop up.</p>
-				</div>
-
-			</div>
 	</section>
 
 	<!-- Footer -->
