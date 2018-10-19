@@ -2837,7 +2837,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #6cc091;
+		background: #2d2f30;
 		color: #daefe3;
 		height: 100%;
 		max-width: 80%;
@@ -2856,7 +2856,7 @@
 		}
 
 		#navPanel a:not(.close) {
-			border-top: solid 1px #8dcca9;
+			border-top: solid 1px #337ab7;
 			color: #daefe3;
 			font-weight: 600;
 			display: block;
@@ -2942,9 +2942,10 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/background.jpg);
+		background-image: url(../../images/icon2.png);
 		background-size: auto;
-		background-position: top;
+		background-color: black;
+		background-position: center;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
